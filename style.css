@@ -1,0 +1,249 @@
+body {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 13px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    /* background-color: pink; */
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end; /*  */
+    font-size: 13px;
+}
+
+
+header nav .barra-navegacion-derecha {
+    width: 350px; /* ancho de lo elementos de las listas*/
+    height: auto; /* Altura automatica */
+    display: flex; /* Para poder mover los documentos */
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav .barra-navegacion-derecha .menu-icon {
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+nav .barra-navegacion-derecha a {
+    margin-right: 25px;
+    color: #000000;        
+}
+
+nav .barra-navegacion-derecha .btn-iniciar-sesion a {
+    background-color: #1b66c9;
+    margin-left: 8px;
+    padding: 5px;
+    border: solid 1px transparent;
+    margin-right: 8px;
+    padding: 9px 23px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+    letter-spacing: 0.25px;  
+    font-weight: bolder;  
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+    height: 100px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: solid 1px #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    padding-right: 20px;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-input .picture-icon {
+    background-image: url(https://seekicon.com/free-icon-download/google-lens_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa; /*  #f2f2f2 */
+    border: 0;
+    font-size: 13px;
+    color: #202124; /*#5f6368*/
+    border-radius: 4px;
+    pad: 0px 15px;
+    margin-left: 15px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+}
+
+main .main-text {
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px; 
+    font-size: 13px; 
+}
+
+main .main-text a {
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;    
+}
+
+
+footer {    
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    align-items: center;
+    /* padding: 15px 30px; */
+}
+
+footer p {
+    padding-left: 25px;
+    font-size: 15px;
+    color: #70757a;   
+}
+
+
+footer .footer-inferior {      
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;    
+    padding-bottom: 20px;
+}
+
+footer .footer-inferior ul {    
+    /* margin: 10px; */
+    list-style: none;
+    display: flex;
+}
+
+
+footer .footer-inferior .footer-inferior-izquierdo {
+    justify-content: left;    
+    padding-left: 15px;
+}
+
+footer .footer-inferior .footer-inferior-derecho {
+    justify-content: right;    
+    padding-right: 20px;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #70757a;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* body, input, button {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+
+}
+
+body {
+    background: #fff;
+    display: block;
+}
+ */
