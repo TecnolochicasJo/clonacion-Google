@@ -1,4 +1,4 @@
-# Clonación de Goole
+# Clonación de Google
 
 En esta practica se realiza la clonación de la pagina de Google con CSS y HTML. 
 En la siguiente imagen se muetra el resultado de dicha practica.
